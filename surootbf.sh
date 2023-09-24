@@ -1,19 +1,12 @@
 #!/bin/bash
 
 help="
-       ________
-      /    /   \ 
-     /         /
-    /         /
-    \___/____/ HACKNCORP@GMAIL.COM
-
-
 --------------HACKNCORP TOOLS--------------
 ------BRUTE FORCE PASSWORD USER LINUX------
 ----------------LUTFIFAKEE----------------
 -------------COPYRIGHT - 2023-------------
 
-Example:    ./surootbf.sh -u root [-w top12000.txt] [-t 0.7] [-s 0.007]
+Example: ./surootbf.sh -u root [-w pass.txt] [-t 0.7] [-s 0.007]
 
 	Options:
 
