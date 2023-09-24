@@ -6,7 +6,7 @@ By default the BF default speed is using 100 su processes at the same time (each
 You can configure this times using -t (timeout su process) ans -s (sleep between 2 su processes).
 Fastest recommendation: -t 0.5 (minimun acceptable) and -s 0.003 ~ 108s to complete
 
-Example: ./suroot.sh -u root -w pass.txt -t 0.7 -s 0.007
+Example:    ./suBF.sh -u <USERNAME> [-w pass.txt] [-t 0.7] [-s 0.007]
 
 THE USERNAME IS CASE SENSITIVE AND THIS SCRIPT DOES NOT CHECK IF THE PROVIDED USERNAME EXIST, BE CAREFUL\n\n"
 
@@ -41,15 +41,7 @@ su_try_pwd (){
 }
 
 su_brute_user_num (){
-  echo " 
---------------HACKNCORP TOOLS--------------
-------BRUTE FORCE PASSWORD USER LINUX------
-----------------LUTFIFAKEE----------------
--------------COPYGRIHT - 2023-------------
-
-
-
-[+] Bruteforcing $1..."
+  echo "  [+] Bruteforcing $1..."
   USER=$1
   su_try_pwd $USER "" &    #Try without password
   su_try_pwd $USER $USER & #Try username as password
