@@ -42,13 +42,6 @@ su_try_pwd (){
 
 su_brute_user_num (){
   echo " 
-       ________ 
-      /    /   \
-     /         /
-    /         /
-    \___/____/ HACKNCORP@GMAIL.COM
-
-
 --------------HACKNCORP TOOLS--------------
 ------BRUTE FORCE PASSWORD USER LINUX------
 ----------------LUTFIFAKEE----------------
